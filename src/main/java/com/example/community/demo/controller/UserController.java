@@ -14,6 +14,7 @@ public class UserController {
 	UserService userService;
 	@RequestMapping("/query")
 	public List<User> queryData(){
+		System.out.println("11111");
 		return userService.queryData();
 	}
 }
